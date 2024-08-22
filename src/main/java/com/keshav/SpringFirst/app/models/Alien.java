@@ -1,5 +1,6 @@
 package com.keshav.SpringFirst.app.models;
 
+import com.keshav.SpringFirst.app.service.LaptopRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
@@ -10,6 +11,8 @@ public class Alien {
     @Value("25")
     private int age ;
     private Computer com;
+
+
 
     public Computer getCom() {
         return com;

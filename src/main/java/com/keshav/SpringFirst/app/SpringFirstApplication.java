@@ -16,7 +16,7 @@ public class SpringFirstApplication {
 		ApplicationContext context = SpringApplication.run(SpringFirstApplication.class);
 		LaptopService service = context.getBean(LaptopService.class);
 		Laptop lap = context.getBean(Laptop.class);
-		service.addlaptop(lap);
+		service.addLaptop(lap);
 
 
 	}
